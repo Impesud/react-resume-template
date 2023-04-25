@@ -346,7 +346,7 @@ export const contact: ContactSection = {
     {
       type: ContactType.Location,
       text: 'Milan, Italy',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      href: 'https://www.google.it/maps/place/Impesud/@45.4715443,9.2191873,15z',
     },
     {
       type: ContactType.Instagram,
