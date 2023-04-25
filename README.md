@@ -4,6 +4,8 @@
 
 <img alt="GitHub release (latest by date including pre-releases" src="https://img.shields.io/github/v/release/impesud/react-resume-template?include_prereleases">
 
+<img alt="GitHub languages" src="https://img.shields.io/github/languages/count/impesud/react-resume-template?style=flat">
+
 <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/impesud/react-resume-template?style=flat">
 
 <img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/impesud/react-resume-template/react?style=flat">

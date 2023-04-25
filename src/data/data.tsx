@@ -76,7 +76,7 @@ export const heroData: Hero = {
         at <strong className="text-stone-100">Impesud</strong> coordinating and developing IT, E-commerce and software projects.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Boxing</strong>,
+        In my free time time, you can catch me training in <strong className="text-stone-100">boxing</strong>,
         plucking my <strong className="text-stone-100">balalaika</strong>, or exploring beautiful{' '}
         <strong className="text-stone-100">countries</strong>.
       </p>
@@ -147,12 +147,12 @@ export const skills: SkillGroup[] = [
         level: 9,
       },
       {
-        name: 'Typescript',
-        level: 7,
+        name: 'ES6',
+        level: 9,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'Typescript',
+        level: 7,
       },
     ],
   },
@@ -164,29 +164,29 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'PHP',
+        level: 8,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'Express',
+        level: 5,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Database',
     skills: [
       {
-        name: 'React Native',
-        level: 9,
+        name: 'MySQL',
+        level: 8,
       },
       {
-        name: 'Flutter',
+        name: 'MongoDB',
+        level: 6,
+      },
+      {
+        name: 'PostgreSQL',
         level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
       },
     ],
   },
@@ -199,67 +199,67 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Project title 1',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/Impesud/',
     image: porfolioImage1,
   },
   {
     title: 'Project title 2',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/Impesud/',
     image: porfolioImage2,
   },
   {
     title: 'Project title 3',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/Impesud/',
     image: porfolioImage3,
   },
   {
     title: 'Project title 4',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/Impesud/',
     image: porfolioImage4,
   },
   {
     title: 'Project title 5',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/Impesud/',
     image: porfolioImage5,
   },
   {
     title: 'Project title 6',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/Impesud/',
     image: porfolioImage6,
   },
   {
     title: 'Project title 7',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/Impesud/',
     image: porfolioImage7,
   },
   {
     title: 'Project title 8',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/Impesud/',
     image: porfolioImage8,
   },
   {
     title: 'Project title 9',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/Impesud/',
     image: porfolioImage9,
   },
   {
     title: 'Project title 10',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/Impesud/',
     image: porfolioImage10,
   },
   {
     title: 'Project title 11',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/Impesud/',
     image: porfolioImage11,
   },
 ];
@@ -366,9 +366,8 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/impesud'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/erickjara/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/erickjthered/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/impesud'},
 ];
