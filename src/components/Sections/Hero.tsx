@@ -11,7 +11,7 @@ const Hero: FC = memo(() => {
   const {imageSrc, name, description, actions} = heroData;
 
   return (
-    <Section noPadding sectionId={SectionId.Hero} className="overflow-hidden">
+    <Section className="overflow-hidden" noPadding sectionId={SectionId.Hero}>
       <div className="relative flex h-screen w-screen items-center justify-center">
         <Image
           alt={`${name}-image`}
