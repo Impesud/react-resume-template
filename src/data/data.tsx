@@ -25,9 +25,6 @@ import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/erick.jpg';
 import testimonialImage from '../images/testimonial.webp';
-import testimonialProfile1 from '../images/testimonials/testimonial-profile-1.png';
-import testimonialProfile2 from '../images/testimonials/testimonial-profile-2.png';
-import testimonialProfile3 from '../images/testimonials/testimonial-profile-3.png';
 import {
   About,
   ContactSection,
@@ -316,17 +313,17 @@ export const testimonial: TestimonialSection = {
     {
       name: 'John Doe',
       text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: testimonialProfile1,
+      image: 'https://www.impesud.it/wp-content/uploads/2022/04/logo-impesud.png',
     },
     {
       name: 'Jane Doe',
       text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: testimonialProfile2,
+      image: 'https://www.impesud.it/wp-content/uploads/2022/04/logo-impesud.png',
     },
     {
       name: 'Someone else',
       text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: testimonialProfile3,
+      image: 'https://www.impesud.it/wp-content/uploads/2022/04/logo-impesud.png',
     },
   ],
 };
