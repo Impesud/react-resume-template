@@ -25,7 +25,9 @@ import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/erick.jpg';
 import testimonialImage from '../images/testimonial.webp';
-import testimonialProfile from '../images/testimonial-profile.png';
+import testimonialProfile1 from '../images/testimonials/testimonial-profile-1.png';
+import testimonialProfile2 from '../images/testimonials/testimonial-profile-2.png';
+import testimonialProfile3 from '../images/testimonials/testimonial-profile-3.png';
 import {
   About,
   ContactSection,
@@ -102,8 +104,7 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.`,
   aboutItems: [
     {label: 'Location', text: 'Milan, IT', Icon: MapIcon},
     {label: 'Nationality', text: 'Italian / Peruvian', Icon: FlagIcon},
@@ -315,17 +316,17 @@ export const testimonial: TestimonialSection = {
     {
       name: 'John Doe',
       text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: testimonialProfile,
+      image: testimonialProfile1,
     },
     {
       name: 'Jane Doe',
       text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: testimonialProfile,
+      image: testimonialProfile2,
     },
     {
       name: 'Someone else',
       text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: testimonialProfile,
+      image: testimonialProfile3,
     },
   ],
 };
