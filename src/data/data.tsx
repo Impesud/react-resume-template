@@ -75,9 +75,8 @@ export const heroData: Hero = {
         at <strong className="text-stone-100">Impesud</strong> coordinating and developing IT, E-commerce and software projects.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">boxing</strong>,
-        plucking my <strong className="text-stone-100">balalaika</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">countries</strong>.
+        In my free time time, you can catch me training in <strong className="text-stone-100">boxing</strong> and <strong className="text-stone-100">chess</strong>
+        , plucking my <strong className="text-stone-100">balalaika</strong>, or exploring beautiful{' '} <strong className="text-stone-100">countries</strong>.
       </p>
     </>
   ),
