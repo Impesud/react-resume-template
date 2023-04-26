@@ -24,6 +24,7 @@ import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/erick.jpg';
+import testimonialImage from '../images/testimonial.webp';
 import testimonialProfile1 from '../images/testimonials/testimonial-profile-1.png';
 import testimonialProfile2 from '../images/testimonials/testimonial-profile-2.png';
 import testimonialProfile3 from '../images/testimonials/testimonial-profile-3.png';
