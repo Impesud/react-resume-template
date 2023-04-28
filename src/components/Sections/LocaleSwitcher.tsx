@@ -3,7 +3,7 @@ import Link from 'next/link';
 import {useRouter} from 'next/router';
 import {useTranslations} from 'next-intl';
 
-export default function LocaleSwitcher() {
+export default function LocaleSwitcher(){
   const t = useTranslations('LocaleSwitcher');
 
   const {locale, locales, route} = useRouter();

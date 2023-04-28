@@ -1,11 +1,11 @@
 import classNames from 'classnames';
 import Link from 'next/link';
 import LocaleSwitcher from './LocaleSwitcher';
-import {Dialog, Transition} from '@headlessui/react';
-import {FC, Fragment, memo, useCallback, useMemo, useState} from 'react';
 import {MenuAlt3Icon} from '@heroicons/react/outline';
 import {SectionId} from '../../data/data';
 import {useNavObserver} from '../../hooks/useNavObserver';
+import {Dialog, Transition} from '@headlessui/react';
+import {FC, Fragment, memo, useCallback, useMemo, useState} from 'react';
 
 export const headerID = 'headerNav';
 
