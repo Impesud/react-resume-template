@@ -1,6 +1,5 @@
 import classNames from 'classnames';
 import Link from 'next/link';
-
 import {useRouter} from 'next/router';
 import {useTranslations} from 'next-intl';
 
@@ -17,7 +16,7 @@ export default function LocaleSwitcher(){
   return (
     <Link href={route} locale={firstLocale}>
       <a className={classNames(switcherClass)}>
-        {t('switchLocale', { locale: firstLocale })}
+        {t('switchLocale', {locale: firstLocale})}
       </a>
     </Link>
   );
