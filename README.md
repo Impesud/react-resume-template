@@ -1,7 +1,7 @@
 # React JS Resume Website Template
 
 <div align="center">
-![image](https://user-images.githubusercontent.com/1665536/235162223-37f758d0-5ed3-49d5-86d5-4f4ca5f5088b.png)
+<img src="https://user-images.githubusercontent.com/1665536/235162223-37f758d0-5ed3-49d5-86d5-4f4ca5f5088b.png" />
 
 <img alt="GitHub release (latest by date including pre-releases" src="https://img.shields.io/github/v/release/impesud/react-resume-template?include_prereleases">
 
