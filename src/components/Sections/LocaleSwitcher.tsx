@@ -1,7 +1,7 @@
-import {useTranslations} from 'next-intl';
+import classNames from 'classnames';
 import Link from 'next/link';
 import {useRouter} from 'next/router';
-import classNames from 'classnames';
+import {useTranslations} from 'next-intl';
 
 export default function LocaleSwitcher() {
   const t = useTranslations('LocaleSwitcher');
