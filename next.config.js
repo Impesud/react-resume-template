@@ -30,6 +30,10 @@ const nextConfig = {
   images: {
     domains: ['images.unsplash.com', 'source.unsplash.com'],
   },
+  i18n: {
+  locales: ['en-US', 'it-IT'],
+  defaultLocale: 'en-US',
+  },
 };
 
 module.exports = nextConfig;

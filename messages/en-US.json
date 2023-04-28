@@ -1,0 +1,9 @@
+{
+    "Home": {
+      "title": "Hello World!",
+      "description": "This is a example page."
+    },
+    "LocaleSwitcher": {
+      "switchLocale": "Switch to {locale}"
+    }
+}

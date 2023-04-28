@@ -6,6 +6,7 @@ import {FC, Fragment, memo, useCallback, useMemo, useState} from 'react';
 
 import {SectionId} from '../../data/data';
 import {useNavObserver} from '../../hooks/useNavObserver';
+import LocaleSwitcher from './LocaleSwitcher';
 
 export const headerID = 'headerNav';
 
@@ -38,7 +39,7 @@ const DesktopNav: FC<{navSections: SectionId[]; currentSection: SectionId | null
     const inactiveClass = classNames(baseClass, 'text-neutral-100');
     return (
       <header className="fixed top-0 z-50 hidden w-full bg-neutral-900/50 p-4 backdrop-blur sm:block" id={headerID}>
-        <nav className="flex justify-center gap-x-8">
+        <nav className="flex justify-center gap-x-8 relative">
           {navSections.map(section => (
             <NavItem
               activeClass={activeClass}
@@ -48,6 +49,7 @@ const DesktopNav: FC<{navSections: SectionId[]; currentSection: SectionId | null
               section={section}
             />
           ))}
+          <LocaleSwitcher />
         </nav>
       </header>
     );
