@@ -1,6 +1,7 @@
 import classNames from 'classnames';
 import Link from 'next/link';
 import LocaleSwitcher from './LocaleSwitcher';
+
 import {MenuAlt3Icon} from '@heroicons/react/outline';
 import {SectionId} from '../../data/data';
 import {useNavObserver} from '../../hooks/useNavObserver';

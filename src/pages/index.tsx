@@ -1,7 +1,9 @@
 import dynamic from 'next/dynamic';
+
 import {GetStaticPropsContext} from 'next';
 import {useTranslations} from 'next-intl';
 import {FC, memo} from 'react';
+
 import About from '../components/Sections/About';
 import Contact from '../components/Sections/Contact';
 import Footer from '../components/Sections/Footer';
