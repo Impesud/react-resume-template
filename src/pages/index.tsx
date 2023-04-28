@@ -1,14 +1,13 @@
-import dynamic from 'next/dynamic';
-
 import {GetStaticPropsContext} from 'next';
+import dynamic from 'next/dynamic';
 import {useTranslations} from 'next-intl';
 import {FC, memo} from 'react';
 
+import Page from '../components/Layout/Page';
 import About from '../components/Sections/About';
 import Contact from '../components/Sections/Contact';
 import Footer from '../components/Sections/Footer';
 import Hero from '../components/Sections/Hero';
-import Page from '../components/Layout/Page';
 import Portfolio from '../components/Sections/Portfolio';
 import Resume from '../components/Sections/Resume';
 import Testimonials from '../components/Sections/Testimonials';
